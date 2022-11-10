@@ -2,7 +2,7 @@
   "name": "wd-201-l6",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,ejs",
     "pretest": "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create",
