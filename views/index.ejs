@@ -8,7 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <%- include('header.ejs') %>
+    <header>
+        <%- include('header.ejs') %>
+    </header>
+    
     <table>
     <% for( var i = 0; i < allTodos.length; i++) {%>
         <tr>
@@ -18,5 +21,9 @@
         </tr>
         <% } %>
     </table>
+    <footer>
+        <%- include('footer.ejs') %>
+    </footer>
+    
 </body>
 </html>
